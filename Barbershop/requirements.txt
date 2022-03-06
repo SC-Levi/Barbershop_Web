@@ -1,0 +1,4 @@
+scikit-image 
+gdown==3.10.1 
+ninja==1.10.2.3 
+dlib==19.23.0
