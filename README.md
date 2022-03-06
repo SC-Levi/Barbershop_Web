@@ -37,30 +37,31 @@
 
 **Step 1**: 点击项目页面中的"部署" 
 <div align="center">
-<img width="60%" src="https://minio.platform.oneflow.cloud/media/upload/faa4ad69bd054e95b57028b0c166924e.png" alt="Step 1">
+<img width="60%" src="https://user-images.githubusercontent.com/66501864/156538832-ef00d32d-7d7e-44b9-8625-55b02c0021c6.png" alt="Step 1">
 </div>
 
 **Step 2**: 选择模型文件，选中所有文件
+
 <div align="center">
-<img width="60%" src="https://minio.platform.oneflow.cloud/media/upload/c96ccf6abf134ea3bfbaa638f96d1c59.png" alt="Step 2">
+<img width="60%" src="https://user-images.githubusercontent.com/66501864/156538163-5abad414-efa1-413b-a61f-0fcf552ed556.png" alt="Step 2">
 </div>
 
 **Step 3**: 填写基本信息
 <div align="center">
-<img width="60%" src="https://minio.platform.oneflow.cloud/media/upload/850ed1ef61914815a5ac7b300b2b1a3f.png" alt="Step 3">
+<img width="60%" src="https://user-images.githubusercontent.com/66501864/156538541-7c7c734e-46c0-4066-9f43-0b468c25d5e3.png" alt="Step 3">
 </div>
 
 **Step 4**: 填写配置信息
 - "工作环境"选择"公开环境"中的 "oneflow-master+torch-1.9.1-cu11.1-cudnn8"
-- "启动命令行"填写为 `cd /workspace && bash bash.sh && python align_face.py && python main.py --im_path1 90.png --im_path2 15.png --im_path3 117.png --sign fidelity --smooth 5`
+- "启动命令行"填写为 `cd /workspace && bash bash.sh`
 
 <div align="center">
-<img width="60%" src="https://minio.platform.oneflow.cloud/media/upload/287cf4ffc6bd4fb58c21760c6c482d69.png" alt="Step 4">
+<img width="60%" src="https://user-images.githubusercontent.com/66501864/156539182-76fdc61a-d6f9-4053-b560-10800c9f6fd6.png" alt="Step 4">
 </div>
 
 **Step 5**: 选择运行环境
 <div align="center">
-<img width="60%" src="https://minio.platform.oneflow.cloud/media/upload/f73aeb0c79af444eaae6f45e18e36475.png">
+<img width="60%" src="https://user-images.githubusercontent.com/66501864/156538613-b00ae9d8-9def-4c37-a220-9a214087ad07.png">
 </div>
 
 ### 在服务器端进行推理
@@ -69,7 +70,7 @@
 ### 准备
 在项目根目录下执行：
 ```
-pip install scikit-image gdown==3.10.1 ninja==1.10.2.3 dlib==19.23.0
+pip install -r requirements.txt
 ```
 安装 Python 依赖。
 
